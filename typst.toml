@@ -1,0 +1,15 @@
+[package]
+name = "mff-thesis"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Martin Rosenberg"]
+license = "MIT"
+description = "Thesis template for MFF CUNI (Charles University, Faculty of Mathematics and Physics)"
+keywords = ["thesis", "university", "charles-university", "mff"]
+categories = ["paper"]
+disciplines = ["education"]
+compiler = "0.14.0"
+
+[template]
+path = "template"
+entrypoint = "thesis.typ"
